@@ -239,7 +239,7 @@ const tools=[
     "name": "World Museum",
     "summary": "르완다 그림책과 학생들의 재창작 작품을 읽고, 자신의 이야기를 만들어 나누는 온라인 전시 공간입니다.",
     "subject": "프로젝트",
-    "grade": "독서·세계시민교육",
+    "grade": "",
     "kind": "project",
     "purpose": "World Docent 프로젝트와 학생들의 재창작 작품을 소개하고, 이야기를 읽고 만들어 나누는 공간입니다.",
     "flow": [
@@ -257,6 +257,132 @@ const tools=[
     "image": "assets/tools/world-museum.png",
     "sourceLabel": "GitHub 보기",
     "checkedAt": "2026-10-30",
-    "availability": "공개 화면 확인"
+    "availability": "공개 화면 확인",
+    "topic": "독서·세계시민교육"
+  },
+  {
+    "id": "number-sketchbook",
+    "name": "수케치북",
+    "subject": "수학",
+    "grade": "초등 1학년",
+    "categories": [
+      "수학",
+      "기초학력"
+    ],
+    "summary": "잠깐 나타나는 도형을 보고, 하나씩 세기보다 묶어서 수를 파악하는 수 감각 교구입니다.",
+    "purpose": "도형 무리를 잠깐 보고, 묶음을 이용해 수를 파악하는 활동을 합니다.",
+    "flow": [
+      "1~5, 1~10, 1~15 중 수 범위 선택하기",
+      "1초 동안 나타나는 도형 무리 살펴보기",
+      "수를 생각하고 정답 확인하기"
+    ],
+    "url": "https://numbercatch.netlify.app/",
+    "image": "assets/tools/number-sketchbook.png",
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "pinball-ratio",
+    "name": "핀볼 비율 탐구 아케이드",
+    "subject": "수학",
+    "grade": "초등 6학년",
+    "summary": "당첨 공과 꽝 공을 두 팀에 나누고, 전체 공에 대한 당첨 공의 비율을 비교하는 탐구 도구입니다.",
+    "purpose": "전체 공과 당첨 공의 수를 함께 살펴보며 두 팀의 비율을 비교합니다.",
+    "flow": [
+      "팀 이름과 당첨 공·꽝 공의 수 정하기",
+      "핀볼로 두 팀에 공 나누기",
+      "각 팀의 전체 공과 당첨 공의 비율 비교하기"
+    ],
+    "url": "https://cheerforyourteam.netlify.app/",
+    "image": "assets/tools/pinball-ratio.png",
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "animal-vocabulary",
+    "name": "What Kind of Animal Is It?",
+    "subject": "영어",
+    "grade": "초등 3학년",
+    "summary": "동물 여덟 가지의 영어 이름을 퍼즐, 철자 배열, 텔레파시 게임으로 익히는 어휘 학습 도구입니다.",
+    "purpose": "여덟 가지 동물의 영어 이름과 철자를 여러 게임으로 살펴봅니다.",
+    "flow": [
+      "퍼즐, 철자 배열, 텔레파시 게임 중 활동 선택하기",
+      "동물의 영어 이름과 철자 떠올리기",
+      "정답 확인하며 단어 익히기"
+    ],
+    "url": "https://animal-game-jh.netlify.app/",
+    "image": "assets/tools/animal-vocabulary.png",
+    "checkedAt": "2026-10-30",
+    "categories": [
+      "영어",
+      "기초학력"
+    ]
+  },
+  {
+    "id": "sports-vocabulary",
+    "name": "스포츠 영단어 플래시카드",
+    "subject": "영어",
+    "grade": "",
+    "summary": "스포츠 영단어 여덟 개의 그림, 발음, 뜻과 예문을 카드로 살펴보는 어휘 학습 도구입니다.",
+    "purpose": "스포츠 관련 영어 단어를 그림, 소리, 뜻과 예문으로 살펴봅니다.",
+    "flow": [
+      "순차 모드 또는 랜덤 모드 선택하기",
+      "그림과 영어 단어를 보고 발음 듣기",
+      "카드를 뒤집어 뜻과 예문 살펴보기"
+    ],
+    "url": "https://esthetic-chaja.netlify.app/",
+    "image": "assets/tools/sports-vocabulary.png",
+    "checkedAt": "2026-10-30",
+    "categories": [
+      "영어",
+      "기초학력"
+    ]
+  },
+  {
+    "id": "treasure-flashcards",
+    "name": "보물찾기 단어 플래시카드",
+    "subject": "영어",
+    "grade": "",
+    "summary": "신체, 학용품, 동물, 음식과 스포츠 관련 영어 단어 39개를 힌트와 발음으로 살펴보는 플래시카드입니다.",
+    "purpose": "친숙한 주제의 영어 단어를 힌트, 뜻, 발음으로 살펴봅니다.",
+    "flow": [
+      "단어 카드를 살펴보며 영어 단어 떠올리기",
+      "단어목록에서 뜻과 힌트 확인하기",
+      "발음을 듣고 단어 익히기"
+    ],
+    "url": "https://treasure-hunt-flashcard.netlify.app/",
+    "image": "assets/tools/treasure-flashcards.png",
+    "checkedAt": "2026-10-30",
+    "categories": [
+      "영어",
+      "기초학력"
+    ]
+  },
+  {
+    "id": "festival-food",
+    "name": "What Can We Eat?",
+    "subject": "자율활동",
+    "topic": "문화",
+    "grade": "전학년",
+    "allGrades": true,
+    "summary": "브라질 리우 카니발과 인도 홀리 축제에 어울리는 음식을 사진에서 골라 보는 문화 탐색 게임입니다.",
+    "purpose": "두 나라 축제의 음식 사진을 살펴보며 음식 문화를 탐색합니다.",
+    "flow": [
+      "브라질 또는 인도의 축제 선택하기",
+      "축제에 어울리는 음식 사진 고르기",
+      "결과와 음식 이름 살펴보기"
+    ],
+    "url": "https://astonishing-crisp-45e207.netlify.app/",
+    "image": "assets/tools/festival-food.png",
+    "checkedAt": "2026-10-30"
+  },
+  {
+    "id": "jhgec-booking",
+    "name": "장흥글로컬교육센터 일일체험학습 신청",
+    "subject": "행정업무",
+    "grade": "",
+    "viewOnly": true,
+    "summary": "학년·반·인원과 희망 날짜를 입력해 체험학습을 신청하고, 신청한 일정을 확인하는 예약 서비스입니다.",
+    "url": "https://jhgec-booking-system.netlify.app/",
+    "image": "assets/tools/jhgec-booking.png",
+    "checkedAt": "2026-10-30"
   }
 ];
