@@ -25,6 +25,8 @@ jobs:
           mkdir _site
           cp index.html style.css refinement.css app.js tools.js logo.js character.js .nojekyll _site/
           cp -R assets _site/assets
+      - name: Version browser assets
+        run: node scripts/version-assets.cjs _site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
